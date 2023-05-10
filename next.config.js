@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const path = require("path");
+
 const nextConfig = {
   webpack(config) {
     config.module.rules.forEach((rule) => {

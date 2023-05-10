@@ -1,4 +1,5 @@
 .HomeContainer {
   @include box();
   @include make-flex();
+  background-color: aqua;
 }
